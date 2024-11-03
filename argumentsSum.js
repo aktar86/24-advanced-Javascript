@@ -7,12 +7,13 @@ function addNumber(num1, num2){
         y = y + element;
         
     }
-    
-    console.log(x)
-    console.log(y)
+    // console.log(x)
+    // console.log(y)
     // return num1 + num2;
+    return y;
+
 }
 
-// const result = addNumber(2, 5, 7);
-addNumber(2, 5, 7)
-// console.log(result)
+const result = addNumber(2, 5, 7, 2);
+// addNumber(2, 5, 7)
+console.log(result)
